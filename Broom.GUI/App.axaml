@@ -7,4 +7,8 @@
     <Application.Styles>
         <FluentTheme />
     </Application.Styles>
+
+  <Application.Resources>
+    <x:String x:Key="AppTitle">Метла</x:String>
+  </Application.Resources>
 </Application>

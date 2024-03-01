@@ -4,6 +4,40 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Broom.GUI.MainWindow"
-        Title="Broom.GUI">
-    Welcome to Avalonia!
+        Title="{StaticResource ResourceKey=AppTitle}">
+  <Window.Styles>
+    <StyleInclude Source="MainWindowStyles.axaml"/>
+  </Window.Styles>
+
+  <Grid RowDefinitions="Auto, *">
+      <TextBlock Grid.Row="0"
+                 Text="{StaticResource ResourceKey=AppTitle}"
+                 Classes="title"/>
+
+      <Grid Grid.Row="1"
+            ColumnDefinitions="*, 2*, *">
+
+        <ListBox Grid.Column="0">
+          <ListBoxItem>First</ListBoxItem>
+          <ListBoxItem>Second</ListBoxItem>
+          <ListBoxItem>Last</ListBoxItem>
+        </ListBox>
+
+        <StackPanel Grid.Column="1">
+          <StackPanel Orientation="Horizontal">
+            <Label Content="Название"/>
+            <TextBox/>
+          </StackPanel>
+          <StackPanel Orientation="Horizontal">
+            <Label Content="Путь"/>
+            <TextBox/>
+          </StackPanel>
+        </StackPanel>
+
+        <ListBox Grid.Column="2">
+          <ListBoxItem>First</ListBoxItem>
+          <ListBoxItem>Last</ListBoxItem>
+        </ListBox>
+      </Grid>
+    </Grid>
 </Window>
