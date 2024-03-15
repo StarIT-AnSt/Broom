@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Broom.GUI", "Broom.GUI\Broom.GUI.csproj", "{9617751F-EFEB-4EAE-8E8F-848AD9C40205}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Broom.Core", "Broom.Core\Broom.Core.csproj", "{B73934D2-9CD1-4387-A595-EBAD45DB9011}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{9617751F-EFEB-4EAE-8E8F-848AD9C40205}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9617751F-EFEB-4EAE-8E8F-848AD9C40205}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9617751F-EFEB-4EAE-8E8F-848AD9C40205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B73934D2-9CD1-4387-A595-EBAD45DB9011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B73934D2-9CD1-4387-A595-EBAD45DB9011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B73934D2-9CD1-4387-A595-EBAD45DB9011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B73934D2-9CD1-4387-A595-EBAD45DB9011}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
